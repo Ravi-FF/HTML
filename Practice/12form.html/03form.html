@@ -7,48 +7,43 @@
 </head>
 <body>
     <form action="">
-    <table>
-<caption>Student Information</caption>
-<tr>
-    <td>Name:
-        <input type="text" name="Name" value=""placeholder="Name">
-    </td>
-</tr>
-<tr>
-    <td> Father Name:
-        <input type="text" name="Name" value=""placeholder=" Mother Name">
-    </td>
-</tr>
-<tr>
-    <td>Mother Name:
-        <input type="text" name="Name" value=""placeholder="Mother Name">
-    </td>
-</tr>
-<tr>
-    <td>Email:
-        <input type="email" name="email" value=""placeholder="Email">
-    </td>
-</tr>
+    <fieldset>
+ <legend>Student Information</legend>
 
-<tr>
-    <td> Gender: <input type="radio" name="gender" value="male">Male
-        <input type="radio" name="gender" value="Female">Female</td>
-</tr>
-<tr>
-    <td>Phone Numaber
-        <input type="number" placeholder="Phone Number">
-    </td>
-</tr>
-<tr>
-    <td> Date of Birth: <input type="date" name="date"></td>
-</tr>
-<tr>
-    <td><input type="file" name="photo" id=""></td>
-</tr>
-<tr>
-    <td><button>Submit</button></td>
-</tr>
-    </table>
+    <label for="">Name:</label> 
+        <input type="text" name="Name" value=""placeholder="Name"><br><br><br>
+    
+    <label for="">Father Name: </label> 
+    <input type="text" name="Name" value=""placeholder=" Mother Name"><br><br><br>
+    
+    <label for=""> Mother Name:</label> 
+    <input type="text" name="Name" value=""placeholder="Mother Name"><br><br><br>
+    
+
+     <label for="">Email:</label> 
+    <input type="email" name="email" value=""placeholder="Email"><br><br><br>
+    
+     <label for="">Gender:</label> 
+     <input type="radio" name="gender" value="male">Male
+     <input type="radio" name="gender" value="Female">Female<br><br><br>
+
+      
+    <label for="">OTP :</label> 
+    <input type="password" name="OTP" value="" maxlength="8" required><br><br><br>
+
+
+     <label for="">Phone Numaber :</label> 
+        <input type="number" placeholder="Phone Number"><br><br><br>
+    
+
+  <label for="">Date of Birth:</label> 
+   <input type="date" name="date"><br><br><br>
+
+ <label for="">Provide Photograph : </label> 
+ <input type="file" name="photo" id=""><br><br><br>
+
+<button>Submit</button>
+</fieldset>
 </form>
 </body>
 </html>
