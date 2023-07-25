@@ -6,20 +6,21 @@
     <title>Form No.10</title>
 </head>
 <body>
+    <form action="">
     <h1>Complex Form</h1>
     <fieldset>
         <legend>Presonal Information</legend>
         <label for="name">Name :</label>
-        <input type="text" name="Name" value="">
+        <input type="text" name="Name" value=""><br><br>
 
         <label for="Email">Email:</label>
-        <input type="Email" name="Email" value="" > 
+        <input type="Email" name="Email" value="" > <br><br>
         
         <label for="phone Number">Phone Numaber :</label> 
-        <input type="number" > 
+        <input type="number" > <br><br>
 
         <label for="date">Date of Birth :</label>
-        <input type="date" name="date">
+        <input type="date" name="date"><br><br>
 
         <label for="gender">Gender :</label>
              <input type="radio" name="gender" value="male">Male
@@ -29,10 +30,31 @@
               <select>
                 <option value="United State">United State</option>
                 <option value="India">India</option>
-              </select>
-            
+              </select> <br><br>
 
-           
-    </fieldset>
+              <fieldset>
+                <legend>Address</legend>
+                <label for="">Street :</label> 
+                    <input type="text"><br><br>
+
+                    <label>City :</label>
+                        <input type="text"> 
+                        <br><br>
+                        <label>State :</label>
+                        <input type="text"><br><br>
+                        <label>Zip Code :</label>
+                        <input type="Number" name="Number" value="Number"><br><br>
+                    </fieldset>
+            
+                    <fieldset>
+                        <legend>Other Information</legend>
+                        <label for="comments">Comments :</label><br>
+                        <textarea name="Comments" id="" cols="30" rows="7"></textarea>
+                        <label for="">I agree to the terms of service :</label>
+                        <input type="checkbox" name="Conformation" id="">
+                    </fieldset>
+                 </fieldset><br>
+                 <button type="submit">Submit</button>
+                </form>
 </body>
 </html>
