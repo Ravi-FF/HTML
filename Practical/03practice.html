@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice 03</title>
+</head>
+<body>
+    <!-- Que.01 Create simple table -->
+    <table border="" align="center" >
+        <tr>
+            <th>col 1</th>
+            <th>col 2</th>
+            <th>col 3</th>
+            <th>col 4</th>
+            <th>col 5</th>
+        </tr>
+        <tr>
+            <td>col 6</td>
+            <td>col 7</td>
+            <td>col 8</td>
+            <td>col 9</td>
+            <td>col 10</td>
+        </tr>
+        <tr>
+            <td>col 11</td>
+            <td>col 12</td>
+            <td>col 13</td>
+            <td>col 14</td>
+            <td>col 15</td>
+        </tr>
+        <tr>
+            <td>col 16</td>
+            <td>col 17</td>
+            <td>col 18</td>
+            <td>col 19</td>
+            <td>col 20</td>
+        </tr>
+    </table>
+<hr>
+<!-- Que.02  Create time table for your school -->
+
+<table border="" align="center" >
+    <tbody>
+        <tr>
+            <th>week/time</th>
+            <th>8:30-9:30</th>
+            <th>9:30-10:30</th>
+            <th>10:30-11:30</th>
+            <th>11:30-12:30</th>
+            <th>12:30-2:00</th>
+            <th>2:00-3:00</th>
+        </tr>
+        <tr>
+            <th>MONDAY</th>
+            <td>SUB1</td>
+            <td>SUB2</td>
+            <td>SUB3</td>
+            <td>SUB4</td>
+            <td>SUB5</td>
+            <td>counselling class</td>
+        </tr>
+        <tr>
+            <th>TUESDAY</th>
+            <td>SUB1</td>
+            <td>SUB2</td>
+            <td>SUB3</td>
+            <td>SUB4</td>
+            <td>SUB5</td>
+            <td>library</td>
+        </tr>
+        <tr>
+            <th>WEDNESDAY</th>
+            <td>SUB1</td>
+            <td>SUB2</td>
+            <td>SWA</td>
+            <td>lab</td>
+            <td>Maths</td>
+            <td>science</td>
+        </tr>
+        <tr>
+            <th>THURSDAY</th>
+            <td>SUB1</td>
+            <td>SUB2</td>
+            <td>SUB3</td>
+            <td>SUB4</td>
+            <td>SUB5</td>
+            <td>library</td>
+        </tr>
+        <tr>
+            <th>FRIDAY</th>
+            <td>SUB1</td>
+            <td>SUB2</td>
+            <td>SUB3</td>
+            <td>SUB4</td>
+            <td>SUB5</td>
+            <td>library</td>
+        </tr>
+        <tr>
+            <th>THURSDAY</th>
+            <td>SUB1</td>
+            <td>seminar</td>
+            <td>SUB4</td>
+            <td>SUB5</td>
+            <td>library</td>
+            <td>Sub 6</td>
+        </tr>
+    </tbody>
+</table>
+<hr>
+<!-- Que.03 Create a table using Colspanrowsapn example -->
+<table border="" align="center" >
+    <tr>
+        <th>col 1</th>
+        <th>col 2</th>
+        <th>col 3</th>
+        <th>col 4</th>
+        <th>col 5</th>
+    </tr>
+    <tr>
+        <td colspan="2">col 6</td>
+        <td>col 7</td>
+        <td>col 8</td>
+        <td rowspan="2">col 9</td>
+    </tr>
+    <tr>
+        <td rowspan="2">col 11</td>
+        <td>col 12</td>
+        <td>col 13</td>
+        <td  rowspan="2">col 15</td>
+    </tr>
+    <tr>
+        <td colspan="2">col 16</td>
+        <td colspan="3">col 19</td>
+    </tr>
+</table>
+<hr>
+<!-- Que.04 Create invoice using table  -->
+<table border="" width="60%"
+height="250px" align="center" >
+  <thead>
+    <th colspan="3"> Purchase order:987654321</th>
+    <th colspan="1">Tutorialbrain - 10th Oct 2020</th>
+
+    <tr>
+        <td colspan="2"> <strong> Vendor:</strong> <br>
+             ABC XYZ ltd. <br>
+            DUMMY STREET <br>
+            BULDING 123 <br>
+            HAZARIBAGH, JHARKHAND,825301  <br></td>
+            <td colspan="3">
+                <strong>SHIP TO</strong> : <br>
+                MS DHONI <br>
+                WILSON GARDEN <br>
+                SOUTHE BLOCK, RANCHI-834001
+                </td>
+            </td>
+    </tr>
+    <tbody>
+        <tr>
+           <th>Qut.</th>
+           <th>Item Code</th>
+           <th>Description</th>
+           <th>Unit Price</th>
+       </tr>
+       <tr>
+        <td>100</td>
+        <td>IABCDE</td>
+        <td>Pencils</td>
+        <td>20.00</td>
+    </tr>
+    <tr>
+        <td>1000</td>
+        <td>IN877</td>
+        <td>Notebooks</td>
+        <td>100.00</td>
+    </tr>
+    <tr>
+        <td>500</td>
+        <td>IP8675</td>
+        <td>Pens</td>
+        <td>70.00</td>
+    </tr>
+</tbody>
+ <tfoot>
+ <tr>
+     <th colspan="3"> Subtotal</th>
+        <td>190.00</td>
+      </tr>
+      <tr>
+        <th colspan="2"> GST</th>
+        <td>5%</td>
+        <td>9.50</td>
+      </tr>
+      <tr>
+        <th colspan="3">Grand Total</th>
+        <td>&#36;199.50</td>
+    </tr>
+    </tfoot>
+  </table>
+  <hr>
+  <!-- Que.05 Create hotel menu -->
+
+  <table cellspacing="21.440px" align="center" >
+
+    <th>hotel menu list using html</th>
+        <tr>
+            <td>ESPRESSO ............ 3.00</td>
+            <td>AMERICANO ........ 3.00</td>
+        </tr>
+        <tr>
+            <td>MACCHIATO ........ 3.50</td>
+            <td>CORTADO .............. 3.75</td>
+        </tr>
+        <tr>
+            <td>CAPPUCINO ......... 4.00</td>
+            <td>FLAT WHITE .......... 4.00</td>
+        </tr>
+        <tr>
+            <td>LATTE .................... 4.00</td>
+            <td>CAFE AU LAIT ....... 3.50</td>
+        </tr>
+        <tr>
+            <td>MOCHA .................. 4.50</td>
+            <td>DRIP ......................... 2.50</td>
+        </tr>
+        <tr>
+            <td>TEA ......................... 2.75</td>
+            <td>CHAI LATTE ........... 4.00</td>
+        </tr>
+        <tr>
+            <td>HOT CACAO .......... 3.50</td>
+            <td>COLD BREW ........... 3.75</td>
+        </tr>
+</table><hr>
+<!-- Que.6 create index page for your book -->
+<table border="" align="center" width="50%" cellspacing="0px" cellpadding="10px">
+<tr>
+<th width="100%" colspan="7">Name......................................................................... <br><br>
+STD....................Div.................Roll No.................... <br><br>
+Subject........................................................................ <br><br></th>
+</tr>
+<tr><th height="30px" colspan="7">Index</th></tr>
+<tr>
+    <th>Sr<br>No.</th>
+    <th>Chapter name/ Title </th>
+    <th>Date</th>
+    <th>Page<br>No.</th>
+    <th>sing.</th>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+    <td></td><td></td><td></td><td></td><td></td>
+</tr>
+</table><hr>
+
+<!-- Que.07  Create list with different categories. -->
+<!-- Unordered list -->
+<ul type="I">
+    <li>Background Skills</li>
+        <li>Unix Commands</li>
+        <li>Vim Test Editors</li>
+        <li>Minimal Page</li>
+        <li>Headings</li>
+        <li>Elements</li>
+        <li>Lists</li>
+
+        <!-- Ordered list  -->
+        <ol type="1">
+            <li>Unordered</li>
+            <li>Ordered</li>
+            <li>Definition</li>
+            <li>Nested</li>
+            <li>Absolute</li>
+            <li>Relative</li>
+        </ol>
+        <!-- discraption list  -->
+        <dl>
+            <dt>Html
+                <dd>Tag</dd>
+                <dd>Element</dd>
+                <dd>Attribute</dd>
+            </dt>
+        </dl>
+        <dl>
+            <dt>CSS
+                <dd>Basic seletors</dd>
+                <dd>CLASS</dd>
+                <dd>Id</dd>
+            </dt>
+        </dl>
+        <dl>
+            <dt>JavaScript
+                <dd>react</dd>
+                <dd>angular</dd>
+                <dd>notejs</dd>
+            </dt>
+        </dl>
+       
+</body>
+</html>
