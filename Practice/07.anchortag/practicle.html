@@ -5,8 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice part with anchor tag</title>
+    <style>
+       .anchor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+       }
+       button{
+        padding: 10px 30px;
+        border-radius: 20px;
+        border: none;
+        background-color: khaki;
+        border: 2px solid black;
+        font-size: 15px;
+      }
+      button:hover{
+        cursor: pointer;
+        opacity: 0.7;
+     }
+    </style>
+    
 </head>
 <body>
-    <a href="#" download=""><img src="../../image/chandigrad.jpeg" alt="">hello</a>
+    <div class="anchor">
+        <a href="../../image/chandigrad.jpeg" download="hello"><button>Click here to download</button></a>
+    </div>
 </body>
 </html>
+        
